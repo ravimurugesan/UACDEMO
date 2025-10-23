@@ -81,7 +81,7 @@ startHeld: false
 startHeldReason:
 stepActions: []
 stepConditions: []
-summary:"workflow"
+summary: test
 sysId: 83ffe488175040c8b2dcce43a9bba077
 timeZonePref: -- System Default --
 twDelayAmount:
@@ -95,7 +95,7 @@ twWaitType: None
 twWorkflowOnly: -- System Default --
 userEstimatedDuration:
 variables: []
-version: 1
+version: 2
 virtualResources: []
 workflowEdges: []
 workflowVertices: []
