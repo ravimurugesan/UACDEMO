@@ -1,0 +1,43 @@
+bundleAgentClusters: []
+bundleApplications: []
+bundleBusinessServices: []
+bundleCalendars: []
+bundleCredentials: []
+bundleCustomDays: []
+bundleDatabaseConnections: []
+bundleEmailConnections: []
+bundleEmailTemplates: []
+bundleOAuthClients: []
+bundlePeoplesoftConnections: []
+bundleReports: []
+bundleSapConnections: []
+bundleScripts: []
+bundleSnmpManagers: []
+bundleTasks:
+- addedBy: ravi
+  description: Demo Job for Workflow use case - Script residing in Agent
+  name: APP1-${ENV}-LIN-REM_SCRIPT-1
+  sysId: f73a948449fd444a93b0ca6e7c3feb34
+  type: Linux/Unix
+bundleTriggers: []
+bundleUniversalEventTemplates: []
+bundleUniversalTemplates: []
+bundleVariables: []
+bundleVirtualResources: []
+created: 2025-10-23 20:44:25 +0200
+createdBy: ravi
+defaultPromotionTarget: null
+description: null
+excludeOnExistence: null
+exportReleaseLevel: 7.9.0.0
+exportTable: ops_bundle
+followReferences: false
+name: Release -R801
+opswiseGroups: []
+promoteBundleDefinition: true
+promoteByBusinessServices: []
+retainSysIds: true
+sysId: 09dd519c6aab42ef84bb4039d6c94704
+updated: 2025-10-23 21:10:14 +0200
+updatedBy: ravi
+visibleTo: null
