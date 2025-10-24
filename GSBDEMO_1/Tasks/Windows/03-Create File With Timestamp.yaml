@@ -1,0 +1,129 @@
+type: taskWindows
+actions:
+  abortActions: []
+  emailNotifications: []
+  setVariableActions: []
+  snmpNotifications: []
+  systemOperations: []
+agent: GREATSOUTHERNBANKAUSTRALIA-WINUAG
+agentCluster:
+agentClusterVar:
+agentVar:
+avgRunTime: 0
+avgRunTimeDisplay: 0 Seconds
+broadcastCluster:
+broadcastClusterVar:
+command: type nul > demo1_${_date('yyyy-MM-dd_HHmmss')}.txt
+commandOrScript: Command
+cpDuration:
+cpDurationUnit: Minutes
+createConsole: false
+credentials:
+credentialsVar:
+customField1:
+  label:
+  value:
+customField2:
+  label:
+  value:
+desktopInteract: false
+efDayConstraint: None
+efDuration: 00:00:00:00
+efEnabled: false
+efNthAmount: 5
+efOffsetDuration:
+efOffsetDurationUnit: Minutes
+efOffsetPercentage: 0
+efOffsetType: Percentage
+efTime: 00:00
+efType: Time
+elevateUser: false
+enforceVariables: false
+environment: []
+exclusiveTasks: []
+exclusiveWithSelf: false
+executionRestriction: None
+exitCodeOutput:
+exitCodeProcessing: Success Exitcode Range
+exitCodeText:
+exitCodes: '0'
+exportReleaseLevel: 7.9.0.0
+exportTable: ops_task_windows
+firstRun: 2025-10-17 10:33:52 +0200
+holdResources: false
+lastRun: 2025-10-21 07:27:44 +0200
+lastRunTime: 0
+lastRunTimeDisplay: 0 Seconds
+lfDayConstraint: None
+lfDuration: 00:00:00:00
+lfEnabled: false
+lfNthAmount: 5
+lfOffsetDuration:
+lfOffsetDurationUnit: Minutes
+lfOffsetPercentage: 0
+lfOffsetType: Percentage
+lfTime: 00:00
+lfType: Time
+lockVariables: false
+logLevel: Inherited
+lsDayConstraint: None
+lsDuration: 00:00:00:00
+lsEnabled: false
+lsNthAmount: 5
+lsTime: 00:00
+lsType: Time
+maxRunTime: 0
+maxRunTimeDisplay: 0 Seconds
+minRunTime: 0
+minRunTimeDisplay: 0 Seconds
+name: 03-Create File With Timestamp
+notes: []
+opswiseGroups: []
+outputFailureOnly: false
+outputReturnFile:
+outputReturnNline: '100'
+outputReturnSline: '1'
+outputReturnText:
+outputReturnType: STDOUT
+outputType: STDOUT
+overrideInstanceWait: "No"
+parameters:
+resPriority: 10
+resPriorityVar:
+resolveNameImmediately: false
+restrictionPeriod: None
+restrictionPeriodAfterDate:
+restrictionPeriodAfterTime:
+restrictionPeriodBeforeDate:
+restrictionPeriodBeforeTime:
+restrictionPeriodDateList: []
+retainSysIds: true
+retryExitCodes:
+retryIndefinitely: false
+retryInterval: 60
+retryMaximum: 0
+retrySuppressFailure: false
+runCount: 3
+runTime: 0
+runtimeDir: C:\Windows\TEMP
+script:
+simulation: false
+startHeld: false
+startHeldReason:
+summary:
+sysId: e6442bd96857495195d887df480ca8e2
+timeZonePref: -- System Default --
+twDelayAmount:
+twDelayDuration: 00:00:00:00
+twDelayType: None
+twWaitAmount:
+twWaitDayConstraint: None
+twWaitDuration: 00:00:00:00
+twWaitTime: 00:00
+twWaitType: None
+twWorkflowOnly: -- System Default --
+userEstimatedDuration:
+variables: []
+version: 5
+virtualResources: []
+waitForOutput: true

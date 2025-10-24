@@ -1,0 +1,59 @@
+retainSysIds: true
+name: JAC Bundle
+sysId: fd5cdb2dcee24714be0b323591dead8e
+description:
+opswiseGroups: []
+defaultPromotionTarget:
+excludeOnExistence:
+followReferences: false
+promoteBundleDefinition: false
+promoteByBusinessServices: []
+visibleTo:
+bundleAgentClusters: []
+bundleApplications: []
+bundleBusinessServices: []
+bundleCalendars: []
+bundleCredentials: []
+bundleCustomDays: []
+bundleDatabaseConnections: []
+bundleEmailConnections: []
+bundleEmailTemplates: []
+bundleOAuthClients: []
+bundlePeoplesoftConnections: []
+bundleReports: []
+bundleSapConnections: []
+bundleScripts: []
+bundleSnmpManagers: []
+bundleTasks:
+- addedBy: ravi
+  name: 01-BAT File Execution
+  sysId: c0d1037c821a4f2fb99f5c0ffc4817dc
+  type: Windows
+- addedBy: ravi
+  description: test1
+  name: TEST-WORKFLOW
+  sysId: 8f0409cb8e434f9ba19c974620ff1950
+  type: Workflow
+- addedBy: ravi
+  name: 03-Create File With Timestamp
+  sysId: 96ad24643c754298a1d016fcb9439d04
+  type: Windows
+- addedBy: ravi
+  name: 04-Create Folder & Move File
+  sysId: 4f252b06a6ed42e7bcb9130f2409bad2
+  type: Windows
+- addedBy: ravi
+  name: 02-Execute Windows Command
+  sysId: f551500798334edf867996ea3e15eb43
+  type: Windows
+bundleTriggers: []
+bundleUniversalEventTemplates: []
+bundleUniversalTemplates: []
+bundleVariables: []
+bundleVirtualResources: []
+updated: 2025-10-24 07:25:11 +0200
+updatedBy: ravi
+created: 2025-10-23 22:31:55 +0200
+createdBy: ravi
+exportReleaseLevel: 7.9.0.0
+exportTable: ops_bundle
